@@ -4,8 +4,9 @@
     - name: info
      #to get uri /v3/auth/tokens
      uri: 
-      Content-Type: "application/json;charset=utf8"
       url: https://iam.na-mexico-1.myhuaweicloud.com/v3/auth/tokens
+      headers:
+       Content-Type: "application/json;charset=utf8"
       body:
        auth: 
            identity: 
