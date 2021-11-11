@@ -4,7 +4,7 @@
     - name: info
       #to get uri /v3/auth/tokens
       uri: 
-       url: https://iam.na-mexico-1.myhuaweicloud.com/v3/auth/tokens
+       url: "https://iam.na-mexico-1.myhuaweicloud.com/v3/auth/tokens"
        headers:
         Content-Type: "application/json;charset=utf8"
        "body": {
@@ -27,7 +27,8 @@
                     "name": "hwstaff_intl_e00601829"
                   }
                }
-           }}
+           }
+         }
         }
       register: info
       
