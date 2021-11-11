@@ -10,7 +10,7 @@
        body:
         auth: 
          identity: 
-          methods: password
+          methods: "password"
            password: 
             user: 
              name: "hwstaff_intl_e00601829"
