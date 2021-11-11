@@ -29,5 +29,5 @@
                }
            }
         }
-      register: login
+      register: info
       
