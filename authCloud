@@ -1,0 +1,23 @@
+- name: authCloud
+  hosts: localhost
+  tasks:
+    - name: info
+     #to get uri /v3/auth/tokens
+     uri: 
+      Content-Type: "application/json;charset=utf8"
+      url: https://iam.na-mexico-1.myhuaweicloud.com/v3/auth/tokens
+      body:
+       auth: 
+           identity: 
+               methods: password
+                   password: 
+                       user: 
+                           name: "hwstaff_intl_e00601829"
+                           password: "Alemania2021#"
+                           domain: 
+                           name: "hwstaff_intl_e00601829"         
+                    scope: 
+                       domain: 
+                           name: "hwstaff_intl_e00601829"  
+      register: login
+      
