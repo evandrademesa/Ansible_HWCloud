@@ -2,13 +2,13 @@
   hosts: localhost
   tasks:
     - name: info
-     #to get uri /v3/auth/tokens
-     uri: 
-      url: https://iam.na-mexico-1.myhuaweicloud.com/v3/auth/tokens
-      headers:
-       Content-Type: "application/json;charset=utf8"
-      body:
-       auth: 
+      #to get uri /v3/auth/tokens
+      uri: 
+       url: https://iam.na-mexico-1.myhuaweicloud.com/v3/auth/tokens
+       headers:
+        Content-Type: "application/json;charset=utf8"
+       body:
+        auth: 
            identity: 
                methods: password
                    password: 
