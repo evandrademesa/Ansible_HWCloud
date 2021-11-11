@@ -8,27 +8,27 @@
        headers:
         Content-Type: "application/json;charset=utf8"
        body:
-       {
-        "auth": {
-          "identity": {
-            "methods": [
-                "password"
-            ],
-            "password": {
-                "user": {
-                    "name": "hwstaff_intl_e00601829",
-                    "password": "Alemania2021#",
-                    "domain": {
-                        "name": "hwstaff_intl_e00601829"
+        {
+         "auth": {
+            "identity": {
+               "methods": [
+                   "password"
+                    ],
+               "password": {
+                    "user": {
+                        "name": "hwstaff_intl_e00601829",
+                        "password": "Alemania2021#",
+                        "domain": {
+                            "name": "hwstaff_intl_e00601829"
+                         }
                     }
-                }
-            },
-            "scope": {
-                "domain": {
+               },
+               "scope": {
+                  "domain": {
                     "name": "hwstaff_intl_e00601829"
-                }
-            }
+                  }
+               }
+           }
         }
-    }
       register: login
       
