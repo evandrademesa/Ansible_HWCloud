@@ -27,7 +27,7 @@
                     "name": "hwstaff_intl_e00601829"
                   }
                }
-           }
+           }}
         }
       register: info
       
