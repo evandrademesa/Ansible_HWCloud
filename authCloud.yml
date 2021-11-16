@@ -32,5 +32,9 @@
            }
          }
         }
-      register: info
+      register: login
+      
+    - name: Print token
+      debug:
+        var: login.X-Subject-Token
       
