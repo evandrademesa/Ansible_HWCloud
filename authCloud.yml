@@ -36,5 +36,5 @@
       
     - name: Print token
       debug:
-        var: login.X-Subject-Token
+        var: login.x_subject_token
       
